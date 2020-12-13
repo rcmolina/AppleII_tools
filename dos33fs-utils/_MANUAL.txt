@@ -1,0 +1,25 @@
+dos33 tb_6502.dsk SAVE B TB_6502
+
+E:\Apple IIe\cc65\tb_6502>..\dos33 -h
+
+dos33 version 0.0.12
+by Vince Weaver <vince@deater.net>
+
+Usage: ..\dos33 [-h] [-y] disk_image COMMAND [options]
+        -h : this help message
+        -y : always answer yes for anying warning questions
+
+  Where disk_image is a valid dos3.3 disk image
+  and COMMAND is one of the following:
+        CATALOG
+        LOAD     apple_file <local_file>
+        SAVE     type local_file <apple_file>
+        BSAVE    [-a addr] [-l len] local_file <apple_file>
+        DELETE   apple_file
+        LOCK     apple_file
+        UNLOCK   apple_file
+        RENAME   apple_file_old apple_file_new
+        UNDELETE apple_file
+        DUMP
+        HELLO    apple_file
+

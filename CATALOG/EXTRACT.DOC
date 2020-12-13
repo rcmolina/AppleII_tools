@@ -1,0 +1,11 @@
+Extract
+
+Extracts files from Apple // .dsk images (143360 bytes)
+
+Usage: extract DISKNAME [file1] [file2] ... [filen]
+
+Notes: filenames may include the * wildcard multiple times
+
+       run extract with no parameters for examples
+
+Distribution: All files are freeware and may be distributed freely
