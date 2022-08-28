@@ -1,0 +1,1 @@
+transport11 a2lisp#062000|soX -r 11025 -b -u -t raw - a2lisp_11K.wav
